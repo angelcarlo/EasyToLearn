@@ -1,0 +1,24 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="Easy To Learn" version="1.0.0" versionCode="19">
+<script id="tinyhippos-injected"/>
+<name>Easy to Learn</name>
+<description>This application hepls to the kids who wants to learn</description>
+<author>Elaine Miguel</author>
+<gap:platforms>
+<gap:platform name="ios"/>
+<gap:platform name="android"/>
+<gap:platform name="webos"/>
+<gap:platform name="symbian.wrt"/>
+<gap:platform name="blackberry" project="widgets"/>
+</gap:platforms>
+<icon src="images/icon.png" gap:role="default"/>
+<preference name="phonegap-version" value="1.0.1"/>
+<access origin="*" subdomains="true"/>
+<access uri="*" subdomains="true"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="InAppBrowser">
+<param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+</feature>
+<preference name="orientation" value="portrait"/>
+<preference name="fullscreen" value="true"/>
+<preference name="target-device" value="universal"/>
+</widget>
